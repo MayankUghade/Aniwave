@@ -1,5 +1,6 @@
 import { MdOutlineVideoLibrary } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
+import Image from "next/image";
 
 interface animeCardProps {
   image: string;
@@ -8,14 +9,6 @@ interface animeCardProps {
   score: string;
   type: string;
 }
-
-const data = {
-  image: "https://cdn.myanimelist.net/images/anime/1015/138006l.jpg",
-  name: "Sousou no Frieren",
-  type: "TV",
-  episodes: 28,
-  score: "9.39",
-};
 
 export default function AnimeCard({
   image,
