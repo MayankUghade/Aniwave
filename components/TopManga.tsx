@@ -18,7 +18,6 @@ export default function TopManga() {
     const fetchTopManga = async () => {
       try {
         await new Promise((resolve) => setTimeout(resolve, 2000));
-
         const response = await fetch("https://api.jikan.moe/v4/top/manga", {
           method: "GET",
           headers: {
