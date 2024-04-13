@@ -135,7 +135,7 @@ export default function Page({ params }: { params: { animeId: number } }) {
               {animeDetails?.synopsis}
             </h1>
 
-            <h1 className="md:flex hidden">
+            <h1>
               <span className="text-orange-500 font-semibold">Background</span>:{" "}
               {animeDetails?.background}
             </h1>
