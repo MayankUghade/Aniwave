@@ -75,7 +75,7 @@ export default function Page({ params }: { params: { animeId: number } }) {
               className="md:w-[250px] md:h-[400px] w-[180px] h-[230px]"
             />
 
-            <div className="flex flex-col gap-1 p-3 md:text-lg text-sm">
+            <div className="flex flex-col gap-1 p-3 md:text-lg text-md">
               <h1>
                 <span className="text-orange-400 md:font-semibold">Type:</span>{" "}
                 {animeDetails?.type}
