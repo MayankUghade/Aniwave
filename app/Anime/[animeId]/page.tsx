@@ -28,7 +28,7 @@ interface AnimeDetails {
   background: string;
 }
 
-export default function page({ params }: { params: { animeId: number } }) {
+export default function Page({ params }: { params: { animeId: number } }) {
   const [animeDetails, setAnimeDetails] = useState<AnimeDetails>();
 
   useEffect(() => {
